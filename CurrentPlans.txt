@@ -1,0 +1,13 @@
+
+
+Pre design
+Controls - GrappleHook                   -Shea
+AI - NPC movement                        -Evan
+Map Design - Graphics                    -Zack
+
+
+
+Post design
+Story                                    -Evan
+Special Effects                          -Shea
+UI - main menu - options                 -Zach
