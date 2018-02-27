@@ -11,7 +11,7 @@ public class HealthBar : MonoBehaviour
     public Text healthValue;
 
     public float hitpoint = 150.0f;
-    private float maxHitpoint = 150.0f;
+    public float maxHitpoint = 150.0f;
 
     // Use this for initialization
     void Start()

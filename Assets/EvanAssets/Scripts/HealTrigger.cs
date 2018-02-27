@@ -2,32 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageTrigger : MonoBehaviour
+public class HealTrigger : MonoBehaviour
 {
     HealthBar health;
-    public float damage;
+    public float heal;
 
 
-    void TakeDamage()
+    void HealDamage()
     {
-        if (health.hitpoint < 0)
+        if (health.hitpoint < health.maxHitpoint)
         {
-            health.hitpoint -= damage;
+            health.hitpoint += heal;
         }
     }
 
 
-    void Damaging()
+    void Healing()
     {
-        Debug.Log("Damaging");
-        TakeDamage();
+        Debug.Log("Healing");
+        HealDamage();
     }
 
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Damaging();
+            Healing();
         }
     }
 
