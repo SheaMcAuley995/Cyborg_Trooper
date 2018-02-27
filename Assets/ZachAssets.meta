@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 68f79a65ada156d4dbf657530693908e
 folderAsset: yes
+<<<<<<< HEAD
 timeCreated: 1519154470
+=======
+timeCreated: 1519233272
+>>>>>>> zach
 licenseType: Free
 DefaultImporter:
   userData: 
