@@ -35,20 +35,4 @@ public class HealthBar : MonoBehaviour
             Debug.Log("Player at max health");
         }
     }
-
-    void TakeDamage(float damage)
-    {
-        if (hitpoint < 0)
-        {
-            hitpoint -= damage;
-        }
-     }
-
-    void HealDamage(float heal)
-    {
-        if (hitpoint < maxHitpoint)
-        {
-            hitpoint += heal;
-        }
-    }
 }
