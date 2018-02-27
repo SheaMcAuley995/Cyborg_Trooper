@@ -5,16 +5,20 @@ using UnityEngine;
 public class DamageTrigger : MonoBehaviour
 {
 
-    void OnTriggerEnter(Collider other)
+    HealthBar health;
+
+    void Damaging()
+    {
+        Debug.Log("Damaging");
+        //health.
+    }
+
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            damaging();
+            Damaging();
         }
     }
 
-    void damaging()
-    {
-        Debug.Log("Damaging");
-    }
 }
