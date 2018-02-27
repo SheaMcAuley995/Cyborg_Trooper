@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 500694002}
   - component: {fileID: 500694001}
   - component: {fileID: 500694004}
+  - component: {fileID: 500694005}
   - component: {fileID: 500694003}
   m_Layer: 8
   m_Name: Cube (1)
@@ -634,7 +635,7 @@ LineRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 500693997}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 0
@@ -726,13 +727,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpVelocity: 10
-  groundedSkin: 0.05
+  groundedSkin: 1
   characterSpeed: 10
+  hookLength: 3
+  travelTime: 0.125
   mask:
     serializedVersion: 2
-    m_Bits: 256
-  cam: {fileID: 0}
-  hook: {fileID: 0}
+    m_Bits: 4294967039
+  cam: {fileID: 321605780}
+  hook: {fileID: 100000, guid: 18fcd494ab71841d695135246693eb3a, type: 2}
+  hookSpeed: 5
+--- !u!114 &500694005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500693997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb7cce94950d91b408db00220abe438b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
 --- !u!1 &553295028
 GameObject:
   m_ObjectHideFlags: 0
