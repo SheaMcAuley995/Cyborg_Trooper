@@ -1,21 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class damagePlayer : MonoBehaviour {
 
-    public int playerHealth = 10;
+    HealthBar health;
+    public float playerHealth;
     int damage = 10;
 
 	// Use this for initialization
 	void Start ()
     {
-        
+        playerHealth = health.hitpoint;
 	}
 
     void Respawn()
     {
-        transform.position = Vector2.zero;
+        SceneManager.LoadScene("ZachDev");
     }
 
     void OnCollisionEnter2D (Collision2D _collision)
@@ -31,7 +33,7 @@ public class damagePlayer : MonoBehaviour {
     {
         if (playerHealth == 0)
         {
-            transform.position = Vector2.zero;
+            Respawn();
         }
     }
 }
