@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0f3</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -85,17 +87,17 @@
     <Reference Include="ProBuilderCore-Unity5">
       <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderCore-Unity5.dll</HintPath>
     </Reference>
-    <Reference Include="pb_Stl">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
-    </Reference>
-    <Reference Include="Poly2Tri">
-      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Poly2Tri.dll</HintPath>
-    </Reference>
     <Reference Include="ProBuilderMeshOps-Unity5">
       <HintPath>Assets\ProCore\ProBuilder\Classes\ProBuilderMeshOps-Unity5.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
       <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\KdTreeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="pb_Stl">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\pb_Stl.dll</HintPath>
+    </Reference>
+    <Reference Include="Poly2Tri">
+      <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Poly2Tri.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -202,12 +204,14 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\sunRotation.cs" />
-    <Compile Include="Assets\ZachAssets\Scripts\damagePlayer.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\DamagePlayer.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\GameControll.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\rotation.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\ScoreGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\scrolling.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\sunRotation.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\Wander.cs" />
   </ItemGroup>
   <ItemGroup>
