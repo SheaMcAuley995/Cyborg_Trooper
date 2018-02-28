@@ -29,8 +29,7 @@ public class DamageTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Damaging();
-            //Debug.Log("Hitting player"); _
+            Debug.Log("Hitting player");
         }
     }
-
 }

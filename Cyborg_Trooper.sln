@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyborg_Trooper", "Cyborg_Trooper.csproj", "{4F2FC8D1-5FAF-0DC2-ABD3-C1DA24563DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyborg_Trooper.Editor", "Cyborg_Trooper.Editor.csproj", "{F09B8DBC-DC7B-0854-92DA-5788A95FE103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F2FC8D1-5FAF-0DC2-ABD3-C1DA24563DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2FC8D1-5FAF-0DC2-ABD3-C1DA24563DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2FC8D1-5FAF-0DC2-ABD3-C1DA24563DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2FC8D1-5FAF-0DC2-ABD3-C1DA24563DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09B8DBC-DC7B-0854-92DA-5788A95FE103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09B8DBC-DC7B-0854-92DA-5788A95FE103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09B8DBC-DC7B-0854-92DA-5788A95FE103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09B8DBC-DC7B-0854-92DA-5788A95FE103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
