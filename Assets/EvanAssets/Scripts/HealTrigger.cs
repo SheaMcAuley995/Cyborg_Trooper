@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class HealTrigger : MonoBehaviour
 {
-    HealthBar health;
+    public HealthBar health;
     public float heal;
+    public float healSpeed;
 
 
     void HealDamage()
     {
         if (health.hitpoint < health.maxHitpoint)
         {
-            health.hitpoint += heal;
+            health.hitpoint += heal * Time.deltaTime * healSpeed;
         }
     }
 
 
-    void Healing()
+    public void Healing()
     {
         Debug.Log("Healing");
         HealDamage();
@@ -28,6 +29,7 @@ public class HealTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Healing();
+            //Debug.log("hitting the player");
         }
     }
 

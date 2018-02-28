@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class DamageTrigger : MonoBehaviour
 {
-    HealthBar health;
+    public HealthBar health;
     public float damage;
+    public float damageSpeed;
 
 
     void TakeDamage()
     {
-        if (health.hitpoint < 0)
+        if (health.hitpoint > 0)
         {
-            health.hitpoint -= damage;
+            health.hitpoint -= damage * Time.deltaTime * damageSpeed;
         }
     }
 
 
-    void Damaging()
+    public void Damaging()
     {
         Debug.Log("Damaging");
         TakeDamage();
@@ -28,6 +29,7 @@ public class DamageTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Damaging();
+            //Debug.Log("Hitting player"); _
         }
     }
 
