@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -150,6 +148,8 @@
     <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\EvanAssets\Scripts\HealTrigger.cs" />
+    <Compile Include="Assets\EvanAssets\Scripts\Restart.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -162,9 +162,7 @@
     <Compile Include="Assets\SheaAssets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\GrappleHook.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpBox.cs" />
-    <Compile Include="Assets\SheaAssets\Scripts\JumpCollision.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpFixes.cs" />
-    <Compile Include="Assets\SheaAssets\Scripts\JumpRaycast.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
@@ -204,7 +202,7 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\ZachAssets\Scripts\DamagePlayer.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\damagePlayer.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\GameControll.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\RepeatingBackground.cs" />
