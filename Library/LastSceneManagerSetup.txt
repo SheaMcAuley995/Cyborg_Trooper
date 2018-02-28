@@ -2,3 +2,9 @@ sceneSetups:
 - path: Assets/Dev/DevScene.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/ZachAssets/Scenes/Level 2.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Dev/DevScene.unity
+  isLoaded: 0
+  isActive: 0
