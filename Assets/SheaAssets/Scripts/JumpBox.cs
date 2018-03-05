@@ -19,7 +19,7 @@ public class JumpBox : MonoBehaviour {
         //Move Speed
     [Range(1, 10)]
     public float characterSpeed;
-    [Range(1, 3)]
+    [Range(1, 20)]
     public float hookLength;
     [Range(0, 0.4f)]
     public float travelTime = 0.125f;

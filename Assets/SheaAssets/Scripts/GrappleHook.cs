@@ -10,7 +10,7 @@ public class GrappleHook : MonoBehaviour {
         Debug.Log("PLAYER HOOKER");
         if (c.tag == "Obstacle")
         {
-            //daddy.pulltome;
+            daddy.transform.position = this.transform.position;
             Debug.Log("PLAYER HOOKER");
         }
     }

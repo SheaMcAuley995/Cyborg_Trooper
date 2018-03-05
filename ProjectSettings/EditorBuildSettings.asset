@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ZachAssets/Scenes/ZachDev.unity
+    guid: 1e9c701736dd87e498d88df2b290a28b
+  - enabled: 1
+    path: Assets/Dev/DevScene.unity
+    guid: 02b7207771a7d7549a0cd5d16ded158a
