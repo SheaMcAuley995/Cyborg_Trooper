@@ -20,13 +20,13 @@ public class DamagePlayer : MonoBehaviour {
 
     void Respawn()
     {
-        SceneManager.LoadScene("ZachDev"); 
+        SceneManager.LoadScene("DevScene"); 
     }
 
 
     private void OnCollisionEnter2D(Collision2D c)
     {
-        if(c.gameObject.tag == "Obstacle")
+        if(c.gameObject.tag == "Trap")
         {
             playerHealth -= damage;
             Debug.Log("You Died!");
@@ -39,7 +39,7 @@ public class DamagePlayer : MonoBehaviour {
 
         if(c.gameObject.tag == "DEATH BOX")
         {
-            SceneManager.LoadScene("ZachDev");
+            SceneManager.LoadScene("DevScene");
         }
     }
 
@@ -55,6 +55,12 @@ public class DamagePlayer : MonoBehaviour {
         {
             playerHealth += addHealth;
             Debug.Log("Your health has been increased!");
+        }
+
+        if (other.gameObject.tag == "DeathGem")
+        {
+            playerHealth -= playerHealth;
+            Debug.Log("HAHAHAHA you fell for the trap!");
         }
     }
 

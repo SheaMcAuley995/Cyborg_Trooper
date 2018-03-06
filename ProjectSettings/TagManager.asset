@@ -4,13 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Obstacle
   - ScoreGem
   - HealthGem
   - WeaponGem
   - DeathGem
   - WinGem
   - DEATH BOX
+  - Trap
+  - Earth Clouds
+  - InstaDeath Trap
   layers:
   - Default
   - TransparentFX
