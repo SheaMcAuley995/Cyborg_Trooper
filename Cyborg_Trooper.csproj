@@ -145,6 +145,7 @@
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\EvanAssets\Scripts\AIPersue.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
