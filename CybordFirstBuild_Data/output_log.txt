@@ -1,0 +1,271 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   22.21.13.8494
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\ProBuilderCore-Unity5.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\ProBuilderCore-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\ProBuilderMeshOps-Unity5.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\ProBuilderMeshOps-Unity5.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\KdTreeLib.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\KdTreeLib.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\pb_Stl.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\pb_Stl.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\Poly2Tri.dll (this message is harmless)
+Loading C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\Poly2Tri.dll into Unity Child Domain
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\s179049\Desktop\CYBOOOOORD\CybordFirstBuild_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.021 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.741245 ms
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Your health has been increased!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+You Died!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.693629 ms
+
+Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 930.
+Total: 0.473873 ms (FindLiveObjects: 0.075376 ms CreateObjectMapping: 0.061154 ms MarkObjects: 0.178342 ms  DeleteObjects: 0.157578 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 1f98 -> priority: 1 
+  Thread -> id: 2d3c -> priority: 1 
+  Thread -> id: 1374 -> priority: 1 
+  Thread -> id: 2dcc -> priority: 1 
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PLAYER HOOKER
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

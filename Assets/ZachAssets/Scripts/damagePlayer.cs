@@ -36,6 +36,11 @@ public class DamagePlayer : MonoBehaviour {
         {
             SceneManager.LoadScene("DevScene");
         }
+
+        if(c.gameObject.tag == "DEATH BOX")
+        {
+            SceneManager.LoadScene("ZachDev");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -55,7 +60,7 @@ public class DamagePlayer : MonoBehaviour {
 
     void Update ()
     {
-        if (playerHealth == 0)
+        if (playerHealth <= 0)
         {
             Respawn();
         }

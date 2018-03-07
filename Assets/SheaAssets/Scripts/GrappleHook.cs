@@ -12,6 +12,7 @@ public class GrappleHook : MonoBehaviour {
         {
             //daddy.pulltome;
             daddy.transform.position = this.transform.position;
+            daddy.transform.position = this.transform.position;
             Destroy(this);
             Debug.Log("PLAYER HOOKER");
         }
