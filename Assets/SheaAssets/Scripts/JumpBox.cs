@@ -11,6 +11,12 @@ public class JumpBox : MonoBehaviour {
 
     //PLAYER MOVEMENT 
 
+    public float bulletSpeed;
+    public GameObject bullet;
+
+    public Transform playerGraphics;
+
+
         //Jump Speed
     [Range(1, 20)]
     public float jumpVelocity;
@@ -59,6 +65,11 @@ public class JumpBox : MonoBehaviour {
         playerRb = GetComponent<Rigidbody2D>();
         playerSize = GetComponent<BoxCollider2D>().size;
         boxSize = new Vector2(playerSize.x -1, groundedSkin);
+        playerGraphics = transform.Find("Graphics");
+        if (playerGraphics == null)
+        {
+            Debug.LogError("NO GRAPHIICSSSSSS Which is like fine for now because really I just want to get the arm moving first");
+        }
     }
 
     private void Start()
@@ -75,7 +86,16 @@ public class JumpBox : MonoBehaviour {
         {
             jumpRequest = true;
         }
-        if (Input.GetMouseButtonDown(0) && !isHooking)
+
+        if(Input.GetMouseButtonDown(0))
+        {
+            // Find mouse position
+            Vector3 mouseInput = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
+            Vector2 mouseClick = cam.ScreenToWorldPoint(mouseInput);
+
+
+        }
+        if (Input.GetMouseButtonDown(1) && !isHooking)
         {
             // Find mouse position
             Vector3 mouseInput = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
@@ -91,7 +111,7 @@ public class JumpBox : MonoBehaviour {
             hookRb = baby.GetComponent<Rigidbody2D>();
             baby.GetComponent<GrappleHook>().daddy = this;
             hookObj = baby;
-            isHooking = true;
+            isHooking = true; 
             hookStart = baby.transform.position;
             hookEnd =  baby.transform.position + (Vector3)(rayDirection.normalized * hookLength);
 
