@@ -13,6 +13,7 @@ TagManager:
   - Trap
   - Earth Clouds
   - InstaDeath Trap
+  - Barrel
   layers:
   - Default
   - TransparentFX
