@@ -83,16 +83,16 @@ public class WeaponShoot : MonoBehaviour {
     void Effect(Vector3 hitPos)
     {
 
-        Instantiate(bulletTrailPrefab, firePoint.position, firePoint.rotation);
-        //Transform trail = Instantiate(bulletTrailPrefab, firePoint.position, firePoint.rotation);
-        //LineRenderer lr = trail.GetComponent<LineRenderer>();
+        //Instantiate(bulletTrailPrefab, firePoint.position, firePoint.rotation);
+        Transform trail = Instantiate(bulletTrailPrefab, firePoint.position, firePoint.rotation) as Transform;
+        LineRenderer lr = trail.GetComponent<LineRenderer>();
 
 
-        //if (lr != null)
-        //{
-        //    lr.SetPosition(0, firePoint.position);
-        //    lr.SetPosition(1, hitPos);
-        //}
+        if (lr != null)
+        {
+            lr.SetPosition(0, firePoint.position);
+            lr.SetPosition(1, hitPos);
+        }
         //Destroy(trail.gameObject, 0.02f);
 
         Transform clone = Instantiate(MuzzleFlashPrefab, firePoint.position, firePoint.rotation) as Transform;
