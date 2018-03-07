@@ -2144,13 +2144,25 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 1
+        value: 0.4255333
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6504882
+        value: 0.8723427
+        inSlope: -1.2862306
+        outSlope: -1.2862306
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9449936
+        value: 0.19148856
         inSlope: 0
         outSlope: 0
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
-      m_RotationOrder: 4
+      m_RotationOrder: 0
     colorGradient:
       serializedVersion: 2
       key0: {r: 1, g: 1, b: 1, a: 1}
@@ -3924,7 +3936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 500694000}
   smoothSpeed: 4
-  offset: {x: 0, y: 4.04, z: -10}
+  offset: {x: 0, y: 5, z: -25}
 --- !u!81 &1126254776
 AudioListener:
   m_ObjectHideFlags: 0
@@ -8115,7 +8127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daaf335bb9b822d4693964a110d6f035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0
+  fireRate: 1e+20
   Damage: 10
   whatToHit:
     serializedVersion: 2
