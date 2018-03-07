@@ -99,6 +99,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ArmRotation.cs" />
     <Compile Include="Assets\Dev\CameraBehavior.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -146,11 +147,13 @@
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\AIPersue.cs" />
+    <Compile Include="Assets\EvanAssets\Scripts\AIShoot.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\Restart.cs" />
+    <Compile Include="Assets\MoveTrail.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -160,10 +163,22 @@
     <Compile Include="Assets\ropeRender.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleInputManager.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleScript.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\Explosive.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\FireLight.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\Hose.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\SmokeParticles.cs" />
+    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\SheaAssets\Scripts\FindTheWay.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\GrappleHook.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpBox.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpFixes.cs" />
+    <Compile Include="Assets\SheaAssets\Scripts\Shoot.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
@@ -203,6 +218,7 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\WeaponShoot.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\damagePlayer.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\GameControll.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
@@ -278,6 +294,10 @@
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
     <None Include="Assets\SheaAssets\EasyGrapplingHook\ChangeLog.txt" />
+    <None Include="Assets\SheaAssets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\SheaAssets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\SheaAssets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\SheaAssets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
     <None Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
