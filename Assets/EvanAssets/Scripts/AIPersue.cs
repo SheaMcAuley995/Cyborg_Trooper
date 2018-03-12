@@ -41,7 +41,7 @@ public class AIPersue : MonoBehaviour
             if (dist > acceptableDistance)
             {
                 Vector2 tempTargetPos = new Vector2(target.position.x, target.position.y);
-                ProjectedPos = tempTargetPos + (targetrb.velocity.normalized * (projdis - (speed - targetrb.velocity.magnitude)));
+                ProjectedPos = tempTargetPos + (targetrb.velocity.normalized * ((projdis - (speed - targetrb.velocity.magnitude) + 1)));
                 dVelocity = speed * ((Vector3)(tempTargetPos + ProjectedPos) - transform.position).normalized;
                 rb.AddForce(dVelocity - rb.velocity);
             }
