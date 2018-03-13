@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ScoreGem : MonoBehaviour {
+
+    //AudioClip pickup;
 
     public static float score;
     public float addScore = 1;
@@ -18,6 +21,7 @@ public class ScoreGem : MonoBehaviour {
         if (c.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+            //AudioSource.PlayClipAtPoint(pickup, transform.position);
         }
     }
 

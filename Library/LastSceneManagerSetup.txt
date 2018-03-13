@@ -2,7 +2,7 @@ sceneSetups:
 - path: Assets/ZachAssets/Scenes/Main Menu.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Dev/DevScene.unity
+- path: Assets/ZachAssets/Scenes/ZachDevScene.unity
   isLoaded: 1
   isActive: 1
 - path: Assets/ZachAssets/Scenes/WinScene.unity

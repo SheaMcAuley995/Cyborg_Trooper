@@ -70,9 +70,6 @@
     <Reference Include="UnityEngine.Timeline">
       <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
@@ -97,11 +94,11 @@
     <Reference Include="Poly2Tri">
       <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Poly2Tri.dll</HintPath>
     </Reference>
-    <Reference Include="TextMeshPro-2017.1-1.0.56-Runtime">
-      <HintPath>Assets\ZachAssets\UI\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="TextMeshPro-2017.1-1.0.56-Editor">
       <HintPath>Assets\ZachAssets\UI\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.1-1.0.56-Runtime">
+      <HintPath>Assets\ZachAssets\UI\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +152,7 @@
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\MuteButton.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -162,6 +160,8 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="Assets\ropeRender.cs" />
+    <Compile Include="Assets\ScoreCheck.cs" />
+    <Compile Include="Assets\ScoreChecker.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleInputManager.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleScript.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\Camera2DFollow.cs" />
@@ -213,6 +213,7 @@
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealingLightManipulation.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RotationAroundPlanet.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\ChangeMusicVolume.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\GameControll.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\Player.cs" />
