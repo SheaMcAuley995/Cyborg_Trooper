@@ -59,8 +59,13 @@ public class EnemyAi : MonoBehaviour {
             {
                 GameObject spawnedBullet = Instantiate(bullet);
                 spawnedBullet.transform.position = transform.position;
+<<<<<<< HEAD
                 spawnedBullet.GetComponent<MoveTrail>().moveSpeed = bulletdir;
 
+=======
+
+                //spawnedBullet.GetComponent<BulletTr>().moveSpeed = bulletdir;
+>>>>>>> shea
                 time = 0;
             }
             else
