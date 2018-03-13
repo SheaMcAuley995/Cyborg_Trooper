@@ -8,7 +8,7 @@ using UnityEngine;
 //[RequireComponent(typeof(Rigidbody2D))]
 
 public class JumpBox : MonoBehaviour {
-
+    public static JumpBox instance;
     //PLAYER MOVEMENT 
 
         //Jump Speed
@@ -56,6 +56,11 @@ public class JumpBox : MonoBehaviour {
 
     private void Awake()
     {
+<<<<<<< HEAD
+=======
+        JumpBox.instance = this;
+        //ropeScript = GetComponent<RopeScript>();
+>>>>>>> shea
         playerRb = GetComponent<Rigidbody2D>();
         playerSize = GetComponent<BoxCollider2D>().size;
         boxSize = new Vector2(playerSize.x -1, groundedSkin);
