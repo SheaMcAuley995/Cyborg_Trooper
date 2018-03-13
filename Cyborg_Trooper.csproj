@@ -70,9 +70,6 @@
     <Reference Include="UnityEngine.Timeline">
       <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
@@ -96,6 +93,12 @@
     </Reference>
     <Reference Include="Poly2Tri">
       <HintPath>Assets\ProCore\ProBuilder\Classes\ClassesLib\Poly2Tri.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.1-1.0.56-Editor">
+      <HintPath>Assets\ZachAssets\UI\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.1-1.0.56-Runtime">
+      <HintPath>Assets\ZachAssets\UI\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -149,8 +152,13 @@
     <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\EvanAssets\Scripts\HealTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\Restart.cs" />
+=======
+    <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\MuteButton.cs" />
+>>>>>>> zach
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -158,6 +166,8 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="Assets\ropeRender.cs" />
+    <Compile Include="Assets\ScoreCheck.cs" />
+    <Compile Include="Assets\ScoreChecker.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleInputManager.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleScript.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\Camera2DFollow.cs" />
@@ -203,15 +213,59 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\ZachAssets\Scripts\damagePlayer.cs" />
+=======
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\CloudRotation.cs" />
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\GeneralUI.cs" />
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealingLightManipulation.cs" />
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RotationAroundPlanet.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\ChangeMusicVolume.cs" />
+>>>>>>> zach
     <Compile Include="Assets\ZachAssets\Scripts\GameControll.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\Player.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\RepeatingBackground.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\rotation.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\ScoreGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\scrolling.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\sunRotation.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\Wander.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Dev\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -279,6 +333,28 @@
     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
     <None Include="Assets\SheaAssets\EasyGrapplingHook\ChangeLog.txt" />
     <None Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\ZachAssets\Models\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
+    <None Include="Assets\ZachAssets\Models\Luminaris Starship\Documentation\Readme Luminaris.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\ZachAssets\UI\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

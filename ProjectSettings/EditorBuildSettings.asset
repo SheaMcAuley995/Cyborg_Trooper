@@ -6,8 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/ZachAssets/Scenes/ZachDev.unity
     guid: 1e9c701736dd87e498d88df2b290a28b
   - enabled: 1
     path: Assets/Dev/DevScene.unity
     guid: 02b7207771a7d7549a0cd5d16ded158a
+=======
+    path: Assets/ZachAssets/Scenes/Main Menu.unity
+    guid: e01a5cbbeff42d144bcb651b23eff6f4
+  - enabled: 1
+    path: Assets/ZachAssets/Scenes/ZachDevScene.unity
+    guid: 1611f0920e076f347a07b4502394eafa
+  - enabled: 1
+    path: Assets/ZachAssets/Scenes/WinScene.unity
+    guid: 2d5123077e3b43e4284e539d2686a9e4
+>>>>>>> zach
