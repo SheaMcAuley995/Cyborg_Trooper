@@ -12,8 +12,12 @@ public class JumpBox : MonoBehaviour {
     //PLAYER MOVEMENT 
 
     RopeScript ropeScript;
-    
-    
+
+
+    Animator ani;
+    private string animRun = "Run";
+    bool _animRun;
+
     GameObject curHook;
     public bool ropeActive;
 
@@ -71,7 +75,7 @@ public class JumpBox : MonoBehaviour {
     {
 
         JumpBox.instance = this;
-
+        ani = GetComponent<Animator>();
         playerRb = GetComponent<Rigidbody2D>();
         playerSize = GetComponent<BoxCollider2D>().size;
         boxSize = new Vector2(playerSize.x -1, groundedSkin);
@@ -84,6 +88,11 @@ public class JumpBox : MonoBehaviour {
 
     void Update()
     {
+        if(Mathf.Abs(playerRb.velocity.x) > 0)
+        {
+            ani.SetBool("Run", true);
+        }
+       
         hookStart = transform.position;
         if (Input.GetButtonDown("Jump") && grounded)
         {
@@ -119,11 +128,11 @@ public class JumpBox : MonoBehaviour {
         
     private void FixedUpdate()
     {
-
+        
         if (jumpRequest)
         {
             GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpVelocity, ForceMode2D.Impulse);
-
+            
             grounded = false;
             jumpRequest = false;
         }
@@ -139,6 +148,7 @@ public class JumpBox : MonoBehaviour {
 
     private void Move(float speed)
     {
+        
         playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
     }
 
