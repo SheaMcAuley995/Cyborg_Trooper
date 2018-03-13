@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114903554587572226}
   m_Layer: 8
   m_Name: Pistol
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 212703714369982958}
   m_Layer: 8
   m_Name: FirePoint
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 114073023144625624}
   m_Layer: 8
   m_Name: Arm
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,8 +88,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1052501973002232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.02, y: 5.02, z: 0}
-  m_LocalScale: {x: 1.8645067, y: 1.8645102, z: 1.8645102}
+  m_LocalPosition: {x: 0, y: 3.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4749520469636002}
   m_Father: {fileID: 0}
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daaf335bb9b822d4693964a110d6f035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 60
+  fireRate: 5
   Damage: 10
   whatToHit:
     serializedVersion: 2

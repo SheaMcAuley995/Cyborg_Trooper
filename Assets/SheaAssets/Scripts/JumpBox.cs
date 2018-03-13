@@ -8,7 +8,7 @@ using UnityEngine;
 //[RequireComponent(typeof(Rigidbody2D))]
 
 public class JumpBox : MonoBehaviour {
-
+    public static JumpBox instance;
     //PLAYER MOVEMENT 
 
     RopeScript ropeScript;
@@ -69,6 +69,7 @@ public class JumpBox : MonoBehaviour {
 
     private void Awake()
     {
+        JumpBox.instance = this;
         //ropeScript = GetComponent<RopeScript>();
         playerRb = GetComponent<Rigidbody2D>();
         playerSize = GetComponent<BoxCollider2D>().size;

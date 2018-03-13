@@ -27,8 +27,8 @@ public class RopeScript : MonoBehaviour {
 	void Start () {
 
         lr = GetComponent<LineRenderer>();
-        player = GameObject.FindGameObjectWithTag("Player");
-
+        //player = GameObject.FindGameObjectWithTag("Player");
+        player = JumpBox.instance.gameObject;
         lastNode = transform.gameObject;
 
         Nodes.Add(transform.gameObject);
