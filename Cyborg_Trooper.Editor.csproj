@@ -307,6 +307,8 @@
     <None Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\ZachAssets\Models\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
     <None Include="Assets\ZachAssets\Models\Luminaris Starship\Documentation\Readme Luminaris.txt" />
+    <None Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Documentation\ReadMe.txt" />
+    <None Include="Assets\ZachAssets\Models\Yurowm\Shaders\SkinShader.shader" />
     <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
