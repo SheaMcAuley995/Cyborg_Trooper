@@ -9,6 +9,7 @@ TagManager:
   - WeaponGem
   - DeathGem
   - WinGem
+  - Fire
   - DEATH BOX
   - Trap
   - Earth Clouds
@@ -25,8 +26,8 @@ TagManager:
   - 
   - 
   - Player
-  - 
-  - 
+  - IgnoreRayCast
+  - Enemy
   - 
   - 
   - 
