@@ -20,7 +20,26 @@ public class EnemyAi : MonoBehaviour {
     bool rightLeft; //right is true
     int dir = -1; // left is and right is -1;
 
-	void Start () {
+
+    void ShootTheGun(int i)
+    {
+        if (time >= 60)
+        {
+            GameObject spawnedBullet = Instantiate(bullet);
+            spawnedBullet.transform.position = transform.position;
+            spawnedBullet.GetComponent<MoveTrail>().moveSpeed = Mathf.Abs(bulletdir) * i; 
+
+
+            time = 0;
+        }
+        else
+        {
+            time++;
+        }
+    }
+
+	void Start ()
+    {
         myTrans = transform;
         myBody = GetComponent<Rigidbody2D>();
         SpriteRenderer mySprite = GetComponent<SpriteRenderer>();
@@ -55,37 +74,14 @@ public class EnemyAi : MonoBehaviour {
           Mathf.Abs(target.position.x) - Mathf.Abs(transform.position.x) >= 0
          )
         {
-            if (time >= 60)
-            {
-                GameObject spawnedBullet = Instantiate(bullet);
-                spawnedBullet.transform.position = transform.position;
-                spawnedBullet.GetComponent<MoveTrail>().moveSpeed = bulletdir;
-
-
-                time = 0;
-            }
-            else
-            {
-                time++;
-            }
+            ShootTheGun(1);
         }
         else if (Mathf.Abs(target.position.x) - Mathf.Abs(transform.position.x) >= -detectionDistance
             &&
             Mathf.Abs(target.position.x) - Mathf.Abs(transform.position.x) <= 0
            )
         {
-            if (time >= 60)
-            {
-                GameObject spawnedBullet = Instantiate(bullet);
-                spawnedBullet.transform.position = transform.position;
-
-                spawnedBullet.GetComponent<MoveTrail>().moveSpeed = bulletdir;
-                time = 0;
-            }
-            else
-            {
-                time++;
-            }
+            ShootTheGun(-1);
         }
 
 
