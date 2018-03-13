@@ -11,19 +11,6 @@ public class JumpBox : MonoBehaviour {
 
     //PLAYER MOVEMENT 
 
-    RopeScript ropeScript;
-    
-    
-    GameObject curHook;
-    public bool ropeActive;
-
-
-    public float bulletSpeed;
-    public GameObject bullet;
-    
-    public Transform playerGraphics;
-
-
         //Jump Speed
     [Range(1, 20)]
     public float jumpVelocity;
@@ -32,7 +19,7 @@ public class JumpBox : MonoBehaviour {
         //Move Speed
     [Range(1, 10)]
     public float characterSpeed;
-    [Range(1, 10)]
+    [Range(1, 3)]
     public float hookLength;
     [Range(0, 0.4f)]
     public float travelTime = 0.125f;
@@ -69,15 +56,16 @@ public class JumpBox : MonoBehaviour {
 
     private void Awake()
     {
-        //ropeScript = GetComponent<RopeScript>();
         playerRb = GetComponent<Rigidbody2D>();
         playerSize = GetComponent<BoxCollider2D>().size;
         boxSize = new Vector2(playerSize.x -1, groundedSkin);
-        playerGraphics = transform.Find("Graphics");
-        if (playerGraphics == null)
-        {
-            Debug.LogError("NO GRAPHIICSSSSSS Which is like fine for now because really I just want to get the arm moving first");
-        }
+    }
+
+    private void Start()
+    {
+
+
+
     }
 
     void Update()
@@ -87,34 +75,32 @@ public class JumpBox : MonoBehaviour {
         {
             jumpRequest = true;
         }
-
-        if(Input.GetButton("Jump") && ropeActive)
+        if (Input.GetMouseButtonDown(0) && !isHooking)
         {
-            //transform.position = 
+            // Find mouse position
+            Vector3 mouseInput = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
+            Vector2 mouseClick = cam.ScreenToWorldPoint(mouseInput);
+
+
+            //Find direction (ray)
+            Vector3 rayDirection = mouseClick - (Vector2)this.transform.position;
+            Vector3 rayNormalised = rayDirection.normalized;
+            //Vector3 r = Quaternion.Euler(0, 90, 0) * rayNormalised;
+            GameObject baby = Instantiate(hook/*, transform.position + (rayDirection.normalized * 1.2f), Quaternion.Euler(r)*/);
+            baby.transform.position = transform.position + (rayDirection.normalized * 1.2f);
+            hookRb = baby.GetComponent<Rigidbody2D>();
+            baby.GetComponent<GrappleHook>().daddy = this;
+            hookObj = baby;
+            isHooking = true;
+            hookStart = baby.transform.position;
+            hookEnd =  baby.transform.position + (Vector3)(rayDirection.normalized * hookLength);
+
+            StartCoroutine(moveHook());
+            //hookRb.AddForce(rayDirection.normalized * 25, ForceMode2D.Impulse);
+            
         }
 
-
-        if (Input.GetMouseButtonDown(1))
-        {
-
-            if (!ropeActive)
-            {
-                Vector2 destiny = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                curHook = (GameObject)Instantiate(hook, transform.position, Quaternion.identity);
-
-                curHook.GetComponent<RopeScript>().destiny = destiny;
-                ropeActive = true;
-            }
-            else
-            {
-               Destroy(curHook);
-                ropeActive = false;
-            }
-        }
     }
-
-
-        
     private void FixedUpdate()
     {
 
@@ -130,7 +116,10 @@ public class JumpBox : MonoBehaviour {
             Vector2 boxCenter = (Vector2)transform.position + Vector2.down * (playerSize.y + boxSize.y) * 0.05f;
             grounded = (Physics2D.OverlapBox(boxCenter,boxSize,0f,mask) != null);
         }
-
+        //if(isHooking)
+        //{
+        //   // LerpBaby(hookStart, hookEnd);
+        //}
         float h = Input.GetAxis("Horizontal");
         Move(h);
     }
@@ -140,6 +129,14 @@ public class JumpBox : MonoBehaviour {
         playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
     }
 
+    //private void LerpBaby(Vector3 start, Vector3 end)
+    //{
+    //    if(hookObj != null)
+    //    {
+    //        hookObj.transform.position = Vector3.Lerp(start, end, hookSpeed * Time.deltaTime);
+            
+    //    }
+    //}
 
     IEnumerator moveHook()
     {

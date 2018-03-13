@@ -1,35 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class DamageTrigger : MonoBehaviour
-{
-    public HealthBar health;
-    public float damage;
-    public float damageSpeed;
+//public class DamageTrigger : MonoBehaviour
+//{
 
+//    HealthBar health;
 
-    void TakeDamage()
-    {
-        if (health.hitpoint > 0)
-        {
-            health.hitpoint -= damage * Time.deltaTime * damageSpeed;
-        }
-    }
+//    void Damaging()
+//    {
+//        Debug.Log("Damaging");
+//        //health.
+//    }
 
+//    void OnTriggerStay2D(Collider2D other)
+//    {
+//        if (other.CompareTag("Player"))
+//        {
+//            Damaging();
+//        }
+//    }
 
-    public void Damaging()
-    {
-        Debug.Log("Damaging");
-        TakeDamage();
-    }
-
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Damaging();
-            Debug.Log("Hitting player");
-        }
-    }
-}
+//}

@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 11406332}
   - component: {fileID: 11482014}
   - component: {fileID: 12039562}
-  - component: {fileID: 114343052119860990}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -290,28 +289,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 105954}
   m_IsPrefabParent: 1
---- !u!114 &114343052119860990
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 105954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c24f41b0115ae54a85baab70357dfb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletSpeed: 0
-  bullet: {fileID: 1770492627854214, guid: 9423407b681bb9947b79eea5db4966db, type: 2}
-  playerGraphics: {fileID: 0}
-  jumpVelocity: 20
-  groundedSkin: 0.05
-  characterSpeed: 10
-  hookLength: 4.64
-  travelTime: 0.125
-  mask:
-    serializedVersion: 2
-    m_Bits: 4294967039
-  cam: {fileID: 0}
-  hook: {fileID: 0}
-  hookSpeed: 2.5
