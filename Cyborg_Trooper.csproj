@@ -99,7 +99,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ArmRotation.cs" />
     <Compile Include="Assets\Dev\CameraBehavior.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -146,29 +145,21 @@
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
-    <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
-    <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
-=======
     <Compile Include="Assets\EvanAssets\Scripts\AIPersue.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\AIShoot.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
-    <Compile Include="Assets\EvanAssets\Scripts\HealTrigger.cs" />
-    <Compile Include="Assets\EvanAssets\Scripts\Restart.cs" />
-    <Compile Include="Assets\MoveTrail.cs" />
->>>>>>> evan
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
-    <Compile Include="Assets\ropeRender.cs" />
+    <Compile Include="Assets\SheaAssets\ArmRotation.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleInputManager.cs" />
     <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleScript.cs" />
+    <Compile Include="Assets\SheaAssets\MoveTrail.cs" />
     <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
     <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
     <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
@@ -179,7 +170,10 @@
     <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
     <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\SmokeParticles.cs" />
     <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
+    <Compile Include="Assets\SheaAssets\ropeRender.cs" />
+    <Compile Include="Assets\SheaAssets\RopeScript.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\SheaAssets\Scripts\EnemyAi.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\FindTheWay.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\GrappleHook.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpBox.cs" />
@@ -224,7 +218,8 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-<<<<<<< HEAD
+    <Compile Include="Assets\SheaAssets\Throwhook.cs" />
+    <Compile Include="Assets\SheaAssets\WeaponShoot.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\CloudRotation.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\GeneralUI.cs" />
@@ -232,11 +227,6 @@
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RotationAroundPlanet.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\ChangeMusicVolume.cs" />
-=======
-    <Compile Include="Assets\WeaponShoot.cs" />
-    <Compile Include="Assets\ZachAssets\Scripts\damagePlayer.cs" />
-    <Compile Include="Assets\ZachAssets\Scripts\GameControll.cs" />
->>>>>>> evan
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\MuteButton.cs" />
