@@ -69,16 +69,8 @@ public class JumpBox : MonoBehaviour {
 
     private void Awake()
     {
-<<<<<<< HEAD
+
         JumpBox.instance = this;
-        //ropeScript = GetComponent<RopeScript>();
-=======
-<<<<<<< HEAD
-=======
-        JumpBox.instance = this;
-        //ropeScript = GetComponent<RopeScript>();
->>>>>>> shea
->>>>>>> 9dbfe7b4dcc7f4f14534908e0a9fdcfb58fe4ba4
         playerRb = GetComponent<Rigidbody2D>();
         playerSize = GetComponent<BoxCollider2D>().size;
         boxSize = new Vector2(playerSize.x -1, groundedSkin);
