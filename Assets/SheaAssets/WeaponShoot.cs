@@ -8,6 +8,11 @@ public class WeaponShoot : MonoBehaviour {
     public float Damage = 10;
     public LayerMask whatToHit;
 
+
+    GameObject curHook;
+    public bool ropeActive;
+    public GameObject hook;
+
     float timeToSpawnEffect;
     public float effectSpawnRate = 10;
     public Transform bulletTrailPrefab;
@@ -29,7 +34,10 @@ public class WeaponShoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //Shoot();
+        
+
+
+
         if(fireRate == 0)
         {
             if(Input.GetMouseButtonDown(0))
@@ -64,7 +72,13 @@ public class WeaponShoot : MonoBehaviour {
 
             }else
             {
+                
                 hitPos = hit.point;
+                IDamgeable attempt = hit.collider.GetComponent<IDamgeable>();
+                if(attempt != null)
+                {
+                    attempt.takeDamage(Damage);
+                }
             }
 
             Effect(hitPos);
@@ -79,6 +93,8 @@ public class WeaponShoot : MonoBehaviour {
             Debug.DrawLine(firePointPosition, hit.point, Color.red);
         }
     }
+
+    
 
     void Effect(Vector3 hitPos)
     {
