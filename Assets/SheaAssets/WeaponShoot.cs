@@ -9,9 +9,7 @@ public class WeaponShoot : MonoBehaviour {
     public LayerMask whatToHit;
 
 
-    GameObject curHook;
-    public bool ropeActive;
-    public GameObject hook;
+
 
     float timeToSpawnEffect;
     public float effectSpawnRate = 10;
@@ -109,7 +107,7 @@ public class WeaponShoot : MonoBehaviour {
             lr.SetPosition(0, firePoint.position);
             lr.SetPosition(1, hitPos);
         }
-        Destroy(trail.gameObject, 0.02f);
+        Destroy(trail.gameObject, 0.04f);
 
         Transform clone = Instantiate(MuzzleFlashPrefab, firePoint.position, firePoint.rotation) as Transform;
         clone.parent = firePoint;
