@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class MoveTrail : MonoBehaviour {
 
+    PlayerHealth hp;
+    public float damage = 10;
     public int moveSpeed = 230;
 	void Update () {
         transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
 
         Destroy(this.gameObject, 1);
 	}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            hp.playerHealth -= damage;
+        }
+    }
+    
 }

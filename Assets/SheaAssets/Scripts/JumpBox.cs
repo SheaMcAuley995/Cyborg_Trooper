@@ -110,7 +110,7 @@ public class JumpBox : MonoBehaviour {
             else
             {
                 Vector2 dir = curHook.transform.position - transform.position;
-               // playerRb.AddForce(dir.normalized * hookSpeed, ForceMode2D.Impulse);
+                playerRb.AddForce(dir.normalized * hookSpeed, ForceMode2D.Impulse);
                 Destroy(curHook);
                     ropeActive = false;
                 //StartCoroutine(PlayerZoom());
@@ -141,11 +141,11 @@ public class JumpBox : MonoBehaviour {
         }
 
         float h = Input.GetAxis("Horizontal");
-        if (!ropeActive && Input.GetButtonDown("Horizontal"))
+        if (!ropeActive)
         {
 
-            Move(h * 40);
-            rbX = Mathf.Clamp(rbX, -10, 10);
+            Move(h * 20);
+           
            // rbY = Mathf.Clamp(rbY, -10, 10);
             playerRb.velocity = new Vector2(rbX, playerRb.velocity.y);
         }
@@ -154,8 +154,11 @@ public class JumpBox : MonoBehaviour {
                 Move(h * 200);
         }
 
-        
 
+        if (grounded)
+        {
+            rbX = Mathf.Clamp(rbX, -10, 10);
+        }
 
     }
 
@@ -163,7 +166,8 @@ public class JumpBox : MonoBehaviour {
     {
         Vector2 movement = new Vector2(speed,0);
         playerRb.AddForce(movement, ForceMode2D.Force);
-            // new Vector2(speed * characterSpeed, playerRb.velocity.y);
+        //
+        // new Vector2(speed * characterSpeed, playerRb.velocity.y);
     }
 
     IEnumerator PlayerZoom()
@@ -186,5 +190,20 @@ public class JumpBox : MonoBehaviour {
         ropeActive = false;
 
     }
-   
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.transform.tag == "MovingPlatform")
+        {
+            transform.parent = collision.transform;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "MovingPlatform")
+        {
+            transform.parent = null;
+        }
+    }
+
 }
