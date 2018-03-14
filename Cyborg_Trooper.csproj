@@ -16,11 +16,7 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-<<<<<<< HEAD
     <UnityVersion>2017.1.0f3</UnityVersion>
-=======
-    <UnityVersion>5.5.1f1</UnityVersion>
->>>>>>> dev
     <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
@@ -31,13 +27,8 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-<<<<<<< HEAD
     <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-=======
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
->>>>>>> dev
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -46,13 +37,8 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-<<<<<<< HEAD
     <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-=======
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
->>>>>>> dev
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -63,6 +49,9 @@
     <Reference Include="UnityScript.Lang" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
@@ -72,8 +61,14 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PlaymodeTestsRunner">
-      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
@@ -81,15 +76,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-=======
-    <Reference Include="UnityEngine.VR">
-      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
-    </Reference>
->>>>>>> dev
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -170,30 +156,25 @@
     <Compile Include="Assets\EvanAssets\Scripts\CameraScratch.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\DamageTrigger.cs" />
     <Compile Include="Assets\EvanAssets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Falldown.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Constant.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Enum.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_IconUtility.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_IgnoreSnapAttribute.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_SceneMeshRender.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Util.cs" />
+    <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
     <Compile Include="Assets\SheaAssets\ArmRotation.cs" />
-    <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleInputManager.cs" />
-    <Compile Include="Assets\SheaAssets\EasyGrapplingHook\Scripts\GrappleScript.cs" />
+    <Compile Include="Assets\SheaAssets\EnemyHealthComponent.cs" />
+    <Compile Include="Assets\SheaAssets\Interfaces.cs" />
     <Compile Include="Assets\SheaAssets\MoveTrail.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\Explosive.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\FireLight.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\Hose.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\SmokeParticles.cs" />
-    <Compile Include="Assets\SheaAssets\ParticleSystems\Scripts\WaterHoseParticles.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\SheaAssets\ropeRender.cs" />
-=======
->>>>>>> dev
     <Compile Include="Assets\SheaAssets\RopeScript.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\EnemyAi.cs" />
@@ -201,22 +182,12 @@
     <Compile Include="Assets\SheaAssets\Scripts\GrappleHook.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpBox.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\JumpFixes.cs" />
+    <Compile Include="Assets\SheaAssets\Scripts\MovingPlatform.cs" />
     <Compile Include="Assets\SheaAssets\Scripts\Shoot.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\2D\Scripts\Restarter.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\ActivateTrigger.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
@@ -226,10 +197,10 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\DragRigidbody.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\DynamicShadowSettings.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\EventSystemChecker.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\Utility\FOVKick.cs" />
-    <Compile Include="Assets\SheaAssets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\FollowTarget.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\ForcedReset.cs" />
+    <Compile Include="Assets\SheaAssets\Standard Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\SheaAssets\Standard Assets\Utility\FPSCounter.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\LerpControlledBob.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\ObjectResetter.cs" />
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
@@ -243,16 +214,27 @@
     <Compile Include="Assets\SheaAssets\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\SheaAssets\Throwhook.cs" />
     <Compile Include="Assets\SheaAssets\WeaponShoot.cs" />
-<<<<<<< HEAD
-=======
-    <Compile Include="Assets\SheaAssets\ropeRender.cs" />
->>>>>>> dev
+    <Compile Include="Assets\TurnModel.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\CloudRotation.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\GeneralUI.cs" />
-    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealingLightManipulation.cs" />
+    <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RotationAroundPlanet.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\Example\Scripts\GameController.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\Example\Scripts\SpawnEnemy.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Animation\CharacterAnimation.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Camera\CameraFirstPerson.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Camera\CameraTopDown.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Camera\CameraTopDownPan.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Enemy\EnemyAI.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Player\DirectionalMove.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Player\LastPosition.cs" />
+    <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Player\Tidy.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\Actions.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\CharacterPanel.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\PlayerController.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\ChangeMusicVolume.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\MainMenu.cs" />
@@ -260,10 +242,10 @@
     <Compile Include="Assets\ZachAssets\Scripts\PlatformMovement.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\PlayerScore.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\rotation.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\SceneChanges.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\ScoreChecker.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\ScoreGem.cs" />
-    <Compile Include="Assets\ZachAssets\Scripts\rotation.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\sunRotation.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -277,6 +259,10 @@
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -288,10 +274,6 @@
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -364,14 +346,16 @@
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexPicker.shader" />
     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
-    <None Include="Assets\SheaAssets\EasyGrapplingHook\ChangeLog.txt" />
-    <None Include="Assets\SheaAssets\ParticleSystems\ParticleSystemsGuidelines.txt" />
-    <None Include="Assets\SheaAssets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
-    <None Include="Assets\SheaAssets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
-    <None Include="Assets\SheaAssets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
-    <None Include="Assets\SheaAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
+    <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
+    <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
+    <None Include="Assets\SheaAssets\KennyJesus\License.txt" />
+    <None Include="Assets\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
+    <None Include="Assets\Weapons Pack(LOW POLY)\Weapons Pack info.txt" />
     <None Include="Assets\ZachAssets\Models\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
     <None Include="Assets\ZachAssets\Models\Luminaris Starship\Documentation\Readme Luminaris.txt" />
+    <None Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Documentation\ReadMe.txt" />
+    <None Include="Assets\ZachAssets\Models\Yurowm\Shaders\SkinShader.shader" />
     <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\ZachAssets\UI\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
