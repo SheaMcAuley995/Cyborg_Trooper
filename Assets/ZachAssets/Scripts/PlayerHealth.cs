@@ -4,15 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour {
+public class PlayerHealth : MonoBehaviour
+{
+    public AudioClip pickup;
 
     public float addHealth = 10;
-    public float Health = 10;
+    static public float Health = 10;
     int damage = 1;
 
     public RectTransform healthBar;
 
-    public GUIText healthText;
+    public TMPro.TextMeshProUGUI healthText;
 
     // Use this for initialization
     void Start ()
@@ -48,6 +50,11 @@ public class PlayerHealth : MonoBehaviour {
         {
             Health += addHealth;
             UpdateHealth();
+
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play();
+            audio.clip = pickup;
+
             Debug.Log("Your health has been increased!");
         }
     }

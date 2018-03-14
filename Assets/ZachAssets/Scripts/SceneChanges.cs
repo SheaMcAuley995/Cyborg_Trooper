@@ -15,7 +15,7 @@ public class SceneChanges : MonoBehaviour
 
         if(c.gameObject.tag == "DEATH BOX")
         {
-            SceneManager.LoadScene("DevScene");
+            SceneManager.LoadScene("ZachDevScene");
         }
     }
 }
