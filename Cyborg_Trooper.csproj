@@ -76,6 +76,18 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+=======
+>>>>>>> fffb88e67912a07e6da2227d0d2c618fec69a3ad
+>>>>>>> dev
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -105,6 +117,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\damagePlayer.cs" />
     <Compile Include="Assets\Dev\CameraBehavior.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Dev\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
@@ -221,6 +234,15 @@
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealingLightManipulation.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
     <Compile Include="Assets\ZachAssets\Models\EarthSimplePlanets\Scripts\RotationAroundPlanet.cs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\ZachAssets\Models\Fx Explosion Pack\Script\csDemoScenceControl.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Fx Explosion Pack\Script\csLightControl.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Fx Explosion Pack\Script\csMouseOrbit.cs" />
+    <Compile Include="Assets\ZachAssets\Models\Fx Explosion Pack\Script\DestroyEffect.cs" />
+>>>>>>> dev
     <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\Example\Scripts\GameController.cs" />
     <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\Example\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\ZachAssets\Models\StarterKit-MoveCamAI\StarterKit\Scripts\Animation\CharacterAnimation.cs" />
@@ -235,10 +257,16 @@
     <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\CharacterPanel.cs" />
     <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\CharacterViewer.cs" />
     <Compile Include="Assets\ZachAssets\Models\Yurowm\Demo\Scripts\PlayerController.cs" />
+<<<<<<< HEAD
+=======
+>>>>>>> fffb88e67912a07e6da2227d0d2c618fec69a3ad
+>>>>>>> dev
     <Compile Include="Assets\ZachAssets\Scripts\ChangeMusicVolume.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\EnemyABetteri.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\HealthGem.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\MuteButton.cs" />
+    <Compile Include="Assets\ZachAssets\Scripts\PickupSound.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\PlatformMovement.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\ZachAssets\Scripts\PlayerScore.cs" />

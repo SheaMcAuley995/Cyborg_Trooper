@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerScore : MonoBehaviour
 {
+    public AudioClip pickup;
+
     public float score;
     public float addScore = 1;
 
-    public GUIText scoreText;
+    public TMPro.TextMeshProUGUI scoreText;
 
     // Use this for initialization
     void Start ()
@@ -43,6 +46,11 @@ public class PlayerScore : MonoBehaviour
         {
             score += addScore;
             UpdateScore();
+
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play();
+            audio.clip = pickup;
+
             Debug.Log("Your score has increased!");
         }
     }
