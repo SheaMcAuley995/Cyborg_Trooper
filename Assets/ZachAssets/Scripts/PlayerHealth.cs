@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour {
 
     public float addHealth = 10;
-    public float playerHealth = 10;
+    public float Health = 10;
     int damage = 1;
 
     public RectTransform healthBar;
@@ -27,16 +27,16 @@ public class PlayerHealth : MonoBehaviour {
 
     void UpdateHealth()
     {
-        healthText.text = "Health: " + playerHealth;
+        healthText.text = "Health: " + Health;
     }
 
     private void OnCollisionEnter2D(Collision2D c)
     {
         if (c.gameObject.tag == "Trap")
         {
-            playerHealth -= playerHealth;
+            Health -= Health;
 
-            healthBar.sizeDelta = new Vector2(playerHealth, healthBar.sizeDelta.y);
+            healthBar.sizeDelta = new Vector2(Health, healthBar.sizeDelta.y);
 
             Debug.Log("You died!");
         }
@@ -46,7 +46,7 @@ public class PlayerHealth : MonoBehaviour {
     {
         if (other.gameObject.tag == "HealthGem")
         {
-            playerHealth += addHealth;
+            Health += addHealth;
             UpdateHealth();
             Debug.Log("Your health has been increased!");
         }
@@ -55,7 +55,7 @@ public class PlayerHealth : MonoBehaviour {
         // Update is called once per frame
     void Update ()
     {
-        if (playerHealth <= 0)
+        if (Health <= 0)
         {
             Debug.Log("You died!");
             Respawn();
