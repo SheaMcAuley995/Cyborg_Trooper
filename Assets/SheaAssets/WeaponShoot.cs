@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WeaponShoot : MonoBehaviour {
 
+    public AudioClip gunshot;
+
     public float fireRate = 0;
     public float Damage = 10;
     public LayerMask whatToHit;
@@ -41,6 +43,9 @@ public class WeaponShoot : MonoBehaviour {
             if(Input.GetMouseButtonDown(0))
             {
                 Shoot();
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.Play();
+                audio.clip = gunshot;
             }
         }
         else
@@ -49,6 +54,9 @@ public class WeaponShoot : MonoBehaviour {
             {
                 timeToFire = Time.time + 1 / fireRate;
                 Shoot();
+                AudioSource audio = GetComponent<AudioSource>();
+                audio.Play();
+                audio.clip = gunshot;
             }
         }
 	

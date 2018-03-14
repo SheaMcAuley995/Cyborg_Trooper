@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyHealthComponent : MonoBehaviour , IDamgeable {
 
+    public ParticleSystem deathEffect;
+
     public float maxHealth;
     float currentHealth;
 
@@ -24,6 +26,8 @@ public class EnemyHealthComponent : MonoBehaviour , IDamgeable {
     {
         if (currentHealth <= 0)
         {
+            Destroy(Instantiate(deathEffect.gameObject) as GameObject, deathEffect.startLifetime);
+
             Destroy(gameObject);
         }
        
