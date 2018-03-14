@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/ZachAssets/Scenes/Main Menu.unity
     guid: e01a5cbbeff42d144bcb651b23eff6f4
   - enabled: 1
-    path: Assets/ZachAssets/Scenes/ZachDevScene.unity
-    guid: 1611f0920e076f347a07b4502394eafa
+    path: Assets/SheaAssets/Scenes/Scenes/SheaDevScene.unity
+    guid: 70f4f208005dacb468138b6acba46687
   - enabled: 1
     path: Assets/ZachAssets/Scenes/WinScene.unity
     guid: 2d5123077e3b43e4284e539d2686a9e4

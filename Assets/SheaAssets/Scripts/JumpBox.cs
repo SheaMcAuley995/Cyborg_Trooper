@@ -158,30 +158,29 @@ public class JumpBox : MonoBehaviour {
         {
 
             Move(h * 20);
-           
-           // rbY = Mathf.Clamp(rbY, -10, 10);
+            rbX = Mathf.Clamp(rbX, -10, 10);
+
             playerRb.velocity = new Vector2(rbX, playerRb.velocity.y);
         }
         else if (ropeActive)
         {
-                Move(h * 200);
+                Move(h * 250);
         }
 
 
-        if (grounded)
-        {
-            rbX = Mathf.Clamp(rbX, -10, 10);
-        }
+    
+           
+        
 
     }
 
     private void Move(float speed)
     {
 
-        playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
+        //playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
 
-        Vector2 movement = new Vector2(speed,0);
-        playerRb.AddForce(movement, ForceMode2D.Force);
+       Vector2 movement = new Vector2(speed,0);
+      playerRb.AddForce(movement, ForceMode2D.Force);
 
     }
 

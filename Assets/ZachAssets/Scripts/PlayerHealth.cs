@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Respawn()
     {
-        SceneManager.LoadScene("ZachDevScene");
+        SceneManager.LoadScene("SheaDevScene");
     }
 
     void UpdateHealth()
