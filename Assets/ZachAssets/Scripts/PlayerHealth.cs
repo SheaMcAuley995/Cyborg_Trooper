@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public AudioClip pickup;
 
     public float addHealth = 10;
-    static public float Health = 10;
+    public float Health = 10;
     int damage = 1;
 
     public RectTransform healthBar;
