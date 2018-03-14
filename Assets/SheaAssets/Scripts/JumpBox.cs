@@ -13,17 +13,16 @@ public class JumpBox : MonoBehaviour {
 
     RopeScript ropeScript;
 
-<<<<<<< HEAD
 
     Animator ani;
     private string animRun = "Run";
     bool _animRun;
-=======
+
     float rbX;
     float rbY;
 
 
->>>>>>> shea
+
 
     GameObject curHook;
     public bool ropeActive;
@@ -91,16 +90,14 @@ public class JumpBox : MonoBehaviour {
 
     void Update()
     {
-<<<<<<< HEAD
+
         if(Mathf.Abs(playerRb.velocity.x) > 0)
         {
             ani.SetBool("Run", true);
         }
        
-        hookStart = transform.position;
-=======
-       // hookStart = transform.position;
->>>>>>> shea
+        //hookStart = transform.position;
+
         if (Input.GetButtonDown("Jump") && grounded)
         {
             jumpRequest = true;
@@ -129,7 +126,7 @@ public class JumpBox : MonoBehaviour {
                 playerRb.AddForce(dir.normalized * hookSpeed, ForceMode2D.Impulse);
                 Destroy(curHook);
                     ropeActive = false;
-                //StartCoroutine(PlayerZoom());
+
 
             }
         }
@@ -139,12 +136,9 @@ public class JumpBox : MonoBehaviour {
         
     private void FixedUpdate()
     {
-<<<<<<< HEAD
-=======
+
         rbX = playerRb.velocity.x;
         rbY = playerRb.velocity.y;
-
->>>>>>> shea
         
         if (jumpRequest)
         {
@@ -164,34 +158,30 @@ public class JumpBox : MonoBehaviour {
         {
 
             Move(h * 20);
-           
-           // rbY = Mathf.Clamp(rbY, -10, 10);
+            rbX = Mathf.Clamp(rbX, -10, 10);
+
             playerRb.velocity = new Vector2(rbX, playerRb.velocity.y);
         }
         else if (ropeActive)
         {
-                Move(h * 200);
+                Move(h * 250);
         }
 
 
-        if (grounded)
-        {
-            rbX = Mathf.Clamp(rbX, -10, 10);
-        }
+    
+           
+        
 
     }
 
     private void Move(float speed)
     {
-<<<<<<< HEAD
-        
-        playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
-=======
-        Vector2 movement = new Vector2(speed,0);
-        playerRb.AddForce(movement, ForceMode2D.Force);
-        //
-        // new Vector2(speed * characterSpeed, playerRb.velocity.y);
->>>>>>> shea
+
+        //playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
+
+       Vector2 movement = new Vector2(speed,0);
+      playerRb.AddForce(movement, ForceMode2D.Force);
+
     }
 
     IEnumerator PlayerZoom()
@@ -205,7 +195,7 @@ public class JumpBox : MonoBehaviour {
         {
             t += Time.deltaTime;
             Debug.DrawLine(transform.position,transform.position + ((Vector3)dir.normalized * 10));
-            //.position = Vector2.Lerp(startPos, destiny, t);
+            
             Debug.Log(dir);
             playerRb.AddForce(dir.normalized * t* hookSpeed);
             yield return null;

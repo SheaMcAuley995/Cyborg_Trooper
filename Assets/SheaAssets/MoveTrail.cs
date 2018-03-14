@@ -16,7 +16,7 @@ public class MoveTrail : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Player")
         {
-            hp.playerHealth -= damage;
+            hp.Health -= damage;
         }
     }
     

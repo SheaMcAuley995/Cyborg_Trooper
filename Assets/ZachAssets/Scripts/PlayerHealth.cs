@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour {
+public class PlayerHealth : MonoBehaviour
+{
+    public AudioClip pickup;
 
     public float addHealth = 10;
     public float Health = 10;
@@ -12,7 +14,7 @@ public class PlayerHealth : MonoBehaviour {
 
     public RectTransform healthBar;
 
-    public GUIText healthText;
+    public TMPro.TextMeshProUGUI healthText;
 
     // Use this for initialization
     void Start ()
@@ -22,7 +24,7 @@ public class PlayerHealth : MonoBehaviour {
 
     void Respawn()
     {
-        SceneManager.LoadScene("ZachDevScene");
+        SceneManager.LoadScene("SheaDevScene");
     }
 
     void UpdateHealth()
@@ -48,6 +50,11 @@ public class PlayerHealth : MonoBehaviour {
         {
             Health += addHealth;
             UpdateHealth();
+
+            AudioSource audio = GetComponent<AudioSource>();
+            audio.Play();
+            audio.clip = pickup;
+
             Debug.Log("Your health has been increased!");
         }
     }
