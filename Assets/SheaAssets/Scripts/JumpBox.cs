@@ -13,10 +13,17 @@ public class JumpBox : MonoBehaviour {
 
     RopeScript ropeScript;
 
+<<<<<<< HEAD
 
     Animator ani;
     private string animRun = "Run";
     bool _animRun;
+=======
+    float rbX;
+    float rbY;
+
+
+>>>>>>> shea
 
     GameObject curHook;
     public bool ropeActive;
@@ -57,12 +64,6 @@ public class JumpBox : MonoBehaviour {
     //ROPE MECANICS
     public Camera cam;
     public GameObject hook;
-    Rigidbody2D hookRb;
-
-    GameObject hookObj;
-    Vector3 hookStart;
-    Vector3 hookEnd;
-    bool isHooking;
     public float hookSpeed;
     //
     //END ROPE MECHANICS
@@ -77,6 +78,8 @@ public class JumpBox : MonoBehaviour {
         JumpBox.instance = this;
         ani = GetComponent<Animator>();
         playerRb = GetComponent<Rigidbody2D>();
+
+
         playerSize = GetComponent<BoxCollider2D>().size;
         boxSize = new Vector2(playerSize.x -1, groundedSkin);
         playerGraphics = transform.Find("Graphics");
@@ -88,12 +91,16 @@ public class JumpBox : MonoBehaviour {
 
     void Update()
     {
+<<<<<<< HEAD
         if(Mathf.Abs(playerRb.velocity.x) > 0)
         {
             ani.SetBool("Run", true);
         }
        
         hookStart = transform.position;
+=======
+       // hookStart = transform.position;
+>>>>>>> shea
         if (Input.GetButtonDown("Jump") && grounded)
         {
             jumpRequest = true;
@@ -118,8 +125,12 @@ public class JumpBox : MonoBehaviour {
             }
             else
             {
-               Destroy(curHook);
-                ropeActive = false;
+                Vector2 dir = curHook.transform.position - transform.position;
+                playerRb.AddForce(dir.normalized * hookSpeed, ForceMode2D.Impulse);
+                Destroy(curHook);
+                    ropeActive = false;
+                //StartCoroutine(PlayerZoom());
+
             }
         }
     }
@@ -128,6 +139,12 @@ public class JumpBox : MonoBehaviour {
         
     private void FixedUpdate()
     {
+<<<<<<< HEAD
+=======
+        rbX = playerRb.velocity.x;
+        rbY = playerRb.velocity.y;
+
+>>>>>>> shea
         
         if (jumpRequest)
         {
@@ -143,37 +160,74 @@ public class JumpBox : MonoBehaviour {
         }
 
         float h = Input.GetAxis("Horizontal");
-        Move(h);
+        if (!ropeActive)
+        {
+
+            Move(h * 20);
+           
+           // rbY = Mathf.Clamp(rbY, -10, 10);
+            playerRb.velocity = new Vector2(rbX, playerRb.velocity.y);
+        }
+        else if (ropeActive)
+        {
+                Move(h * 200);
+        }
+
+
+        if (grounded)
+        {
+            rbX = Mathf.Clamp(rbX, -10, 10);
+        }
+
     }
 
     private void Move(float speed)
     {
+<<<<<<< HEAD
         
         playerRb.velocity = new Vector2(speed * characterSpeed, playerRb.velocity.y);
+=======
+        Vector2 movement = new Vector2(speed,0);
+        playerRb.AddForce(movement, ForceMode2D.Force);
+        //
+        // new Vector2(speed * characterSpeed, playerRb.velocity.y);
+>>>>>>> shea
     }
 
-
-    IEnumerator moveHook()
+    IEnumerator PlayerZoom()
     {
-       Rigidbody2D c = hookObj.GetComponent<Rigidbody2D>();
-
+        Vector2 destiny = curHook.transform.position;
+        Vector2 startPos = transform.position;
+        Vector2 dir = curHook.transform.position - transform.position;
         float t = 0;
-        while(t < 1)//whatever parameter you want
+        Destroy(curHook);
+        while (t < 1)
         {
-
-            //Vector3 B_start = hookStart;
-            //Vector3 B_end = hookEnd;
-            t += Time.deltaTime / travelTime;
-            Vector2 lerpPos = Vector2.Lerp(hookStart, hookEnd, t);
-            c.MovePosition(lerpPos);
-           // Debug.Log(t);
+            t += Time.deltaTime;
+            Debug.DrawLine(transform.position,transform.position + ((Vector3)dir.normalized * 10));
+            //.position = Vector2.Lerp(startPos, destiny, t);
+            Debug.Log(dir);
+            playerRb.AddForce(dir.normalized * t* hookSpeed);
             yield return null;
         }
 
-        Destroy(hookObj);
-        isHooking = false;
-        //Cleanup after you leave the while loop
-
+        ropeActive = false;
 
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.transform.tag == "MovingPlatform")
+        {
+            transform.parent = collision.transform;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "MovingPlatform")
+        {
+            transform.parent = null;
+        }
+    }
+
 }
